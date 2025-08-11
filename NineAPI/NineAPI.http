@@ -10,18 +10,18 @@ Accept: application/json
 POST {{rootURL}}/api/books
 Content-Type: application/json
 {
-    "title":"C# Programing",
+    "title":"Angular Programing",
     "author":"Reza",
-    "yearPublished":2025
+    "yearPublished":2023
 }
 ###
-PUT {{rootURL}}/api/books/4
+PUT {{rootURL}}/api/books/5
 Content-Type: application/json
 {
-    "id":4,
+    "id":5,
     "title":"C# Programing Updated",
     "author":"Reza Updated",
     "yearPublished":2024
 }
 ###
-DELETE {{rootURL}}/api/books/2
+DELETE {{rootURL}}/api/books/6
